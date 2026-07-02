@@ -1,5 +1,9 @@
 <p align="center">
+<<<<<<< HEAD
   <img src="winthrop_logo.png" width="220">
+=======
+  <img src="images/winthrop_logo.png">
+>>>>>>> c0d35054495174854bc91c0bba1719db82e79a08
 </p>
 
 # INBRE Summer Research 2026: Diabetes Prediction
