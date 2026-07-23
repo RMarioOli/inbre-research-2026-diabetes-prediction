@@ -85,16 +85,41 @@ Among the evaluated approaches, clustering-based preprocessing combined with Log
 
 ## Repository Structure
 
-```
-.
-├── data/
-├── figures/
-├── poster/
-├── presentation/
-├── scripts/
-├── README.md
-```
+```text
 
+├── Pima-Indians-Diabetes-Dataset/
+│   ├── diabetes.csv
+│   ├── test_data.csv
+|   └── train_data.csv
+├── images/
+<!-- │   ├── boxplot_glucose.png
+│   ├── boxplot_bmi.png
+│   ├── scree_plot.png
+│   ├── elbow_plot.png
+│   ├── silhouette_plot.png
+│   ├── kmeans_clusters.png -->
+│   └── winthrop_log.png
+├── poster/
+│   ├── INBRE_Poster.pdf
+│   └── INBRE_Poster.tex
+<!-- ├── presentation/
+│   ├── INBRE_Presentation.pptx
+│   └── INBRE_Presentation.pdf -->
+├── notebooks/
+│   ├── Logistic_Regression/
+│   │   ├── Original_LR.ipynb
+│   │   ├── Missing_Value_Imputation_LR.ipynb
+│   │   ├── PCA_LR.ipynb
+│   │   └── KMeans_LR/
+│   │       ├── Add_Clusters_As_Predictors.ipynb
+│   │       ├── Cluster_Noise_Reduction.ipynb
+│   │       └── Cluster_Noise_Reduction_Stepwise.ipynb
+│   ├── SVM/
+│   │   ├── Linear_SVM.ipynb
+│   │   └── Radial_SVM.ipynb
+│   └── KNN/
+│       └── KNN_k5.ipynb
+```
 
 ---
 
