@@ -89,8 +89,11 @@ Among the evaluated approaches, clustering-based preprocessing combined with Log
 
 ├── Pima-Indians-Diabetes-Dataset/
 │   ├── diabetes.csv
+│   ├── diabetes_imputed.csv
 │   ├── test_data.csv
-|   └── train_data.csv
+│   ├── train_data.csv
+│   ├── test_data_imputed.csv
+|   └── train_data_imputed.csv
 ├── images/
 <!-- │   ├── boxplot_glucose.png
 │   ├── boxplot_bmi.png
