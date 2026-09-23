@@ -95,40 +95,24 @@ The study demonstrates that appropriate data preprocessing can improve model per
 ```text
 
 ├── Pima-Indians-Diabetes-Dataset/
-│   ├── diabetes.csv
 │   ├── diabetes_imputed.csv
-│   ├── test_data.csv
-│   ├── train_data.csv
+│   ├── diabetes.csv
 │   ├── test_data_imputed.csv
-|   └── train_data_imputed.csv
+│   ├── test_data.csv
+│   ├── train_data_imputed.csv
+|   └── train_data.csv
 ├── images/
-<!-- │   ├── boxplot_glucose.png
-│   ├── boxplot_bmi.png
-│   ├── scree_plot.png
-│   ├── elbow_plot.png
-│   ├── silhouette_plot.png
-│   ├── kmeans_clusters.png -->
 │   └── winthrop_log.png
 ├── poster/
-│   ├── INBRE_Poster.pdf
-│   └── INBRE_Poster.tex
-<!-- ├── presentation/
-│   ├── INBRE_Presentation.pptx
-│   └── INBRE_Presentation.pdf -->
-├── notebooks/
+│   └── INBRE_Poster.pdf
+├── Code/
 │   ├── Logistic_Regression/
-│   │   ├── Original_LR.ipynb
-│   │   ├── Missing_Value_Imputation_LR.ipynb
-│   │   ├── PCA_LR.ipynb
-│   │   └── KMeans_LR/
-│   │       ├── Add_Clusters_As_Predictors.ipynb
-│   │       ├── Cluster_Noise_Reduction.ipynb
-│   │       └── Cluster_Noise_Reduction_Stepwise.ipynb
-│   ├── SVM/
-│   │   ├── Linear_SVM.ipynb
-│   │   └── Radial_SVM.ipynb
-│   └── KNN/
-│       └── KNN_k5.ipynb
+│   │   ├── 01_Original_LR.ipynb
+│   │   ├── 02_Missing_Value_Imputation_LR.ipynb
+│   │   ├── 03_PCA_LR.ipynb
+│   │   └── 04_KMeans_LR.ipynb
+│   ├── SVM_KNN_Graphs.ipynb
+│   └── SVM.ipyn
 ```
 
 ---
