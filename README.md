@@ -16,8 +16,6 @@ The goal of this study is to develop an accurate and interpretable machine learn
 
 📄 **[View the Research Poster (PDF)](Poster/poster.pdf)**
 
-🌐 **[View the interactive poster online](Poster/poster.html)**
-
 ---
 
 
