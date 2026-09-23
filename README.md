@@ -28,17 +28,15 @@ The goal of this study is to develop an accurate and interpretable machine learn
 - Response variable:
   - 0 = Non-diabetic
   - 1 = Diabetic
-
-Features include:
-
-- Pregnancies
-- Glucose
-- BloodPressure
-- SkinThickness
-- Insulin
-- BMI
-- DiabetesPedigreeFunction
-- Age
+- Features include:
+  - Pregnancies
+  - Glucose
+  - BloodPressure
+  - SkinThickness
+  - Insulin
+  - BMI
+  - DiabetesPedigreeFunction
+  - Age
 
 ---
 
@@ -84,9 +82,11 @@ Performance was evaluated using:
 
 ## Results
 
-<!-- The study demonstrates that appropriate data preprocessing can improve model performance.
+The study demonstrates that appropriate data preprocessing can improve model performance.
 
-Among the evaluated approaches, clustering-based preprocessing combined with Logistic Regression achieved strong predictive performance while maintaining model interpretability. -->
+- Among all Logistic Regression approaches, the K-Means (k = 2) preprocessing strategy achieved the best overall performance, improving classification accuracy and producing the lowest AIC and BIC values.
+
+- Overall, the KNN model (k = 5) delivered the best predictive performance, achieving the highest accuracy, precision, and recall among all models evaluated.
 
 ---
 
@@ -136,6 +136,8 @@ Among the evaluated approaches, clustering-based preprocessing combined with Log
 ## Author
 
 Rong Wei & Ethan Beam
+
+Mentor: Dr. Gihanee Senadheera
 
 INBRE Summer Research Program
 
